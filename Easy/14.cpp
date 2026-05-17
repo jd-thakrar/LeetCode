@@ -27,3 +27,5 @@ public:
         return res;
     }
 };
+
+//https://leetcode.com/problems/longest-common-prefix/solutions/8254074/14-longest-common-prefix-by-thakrar_jeet-rgrl
