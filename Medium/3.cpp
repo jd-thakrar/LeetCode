@@ -19,7 +19,7 @@ public:
            mp[s[i]] = i;
 
        count++;
-       i++;
+       i++; 
     }
     return max(res,count);
     }
