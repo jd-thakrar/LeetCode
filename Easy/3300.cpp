@@ -16,3 +16,4 @@ public:
     }
 };
 
+//https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/solutions/8300728/3300-minimum-element-after-replacement-w-vsf0
