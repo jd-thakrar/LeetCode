@@ -14,3 +14,5 @@ public:
         return true;
     }
 };
+
+//https://leetcode.com/problems/destroying-asteroids/solutions/8305754/destroying-assteroids-by-thakrar_jeet-62vt
