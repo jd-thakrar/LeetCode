@@ -12,3 +12,5 @@ public:
         return waveiness;
     }
 };
+
+//https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/solutions/8312840/3751-total-waviness-of-numbers-in-range-5nw1b
