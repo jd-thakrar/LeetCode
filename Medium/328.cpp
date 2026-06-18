@@ -1,4 +1,3 @@
-328. Odd Even Linked List
 
 /**
  * Definition for singly-linked list.
