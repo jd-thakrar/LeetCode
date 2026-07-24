@@ -11,3 +11,10 @@ from views
 where author_id = viewer_id 
 Group by author_id 
 Order by author_id;
+
+-- 181. Employees Earning More Than Their Managers
+select e.name as Employee 
+from employee e 
+inner join employee m 
+on e.managerId = m.Id 
+where e.salary > m.salary;
