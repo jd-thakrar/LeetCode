@@ -18,3 +18,10 @@ from employee e
 inner join employee m 
 on e.managerId = m.Id 
 where e.salary > m.salary;
+
+-- 183. Customers Who Never Order
+select name AS Customers 
+from Customers c 
+left outer join Orders o 
+on c.id = o.customerId 
+where customerId is null
