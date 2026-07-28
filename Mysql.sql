@@ -32,3 +32,14 @@ from World
 where area >= 3000000
 or population >= 25000000
 
+
+
+
+
+--Medium
+
+-- 585. Investments in 2016
+select round(sum(tiv_2016),2) as tiv_2016 from Insurance where 
+tiv_2015 IN (select tiv_2015 from Insurance group by tiv_2015 Having Count(*) > 1) 
+and
+(lat, lon) IN (SELECT lat, lon FROM Insurance GROUP BY lat, lon HAVING COUNT(*) = 1)
