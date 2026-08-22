@@ -51,7 +51,7 @@ int main(){
     printf("Enter number of elemet: ");
     scanf("%d", &n);
 
-    printf("Enter number of capacity of the bag: ");
+    printf("Enter capacity of the bag: ");
     scanf("%d", &w);
     double weights[n];
     printf("Enter the %d elements for the weight: ", n);
@@ -59,7 +59,7 @@ int main(){
         scanf("%lf", &weights[i]);
     }
     double profits[n];
-    printf("Enter the %d elements for the Profit: ", n);
+    printf("Enter the Profit: ", n);
     for(int i=0; i<n; i++){
         scanf("%lf", &profits[i]);
     }
