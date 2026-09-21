@@ -31,9 +31,10 @@ void heapSort(int arr[], int n) {
         arr[0] = arr[i];
         arr[i] = temp;
 
-        heapify(arr, i, 0);
+        heapify(arr,     i, 0);
     }
 }
+
 
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; ++i) {
