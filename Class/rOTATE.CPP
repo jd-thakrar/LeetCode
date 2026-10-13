@@ -17,11 +17,17 @@ int main() {
 
     cout<<"\n\nOutput \n";
     
-    vector<int> ans;
-    ans.push_back(arr[4]);
-    for(int i = 0; i<4;i++){
-        ans.push_back(arr[i]);
+    int AC;
+    AC = arr[4];
+    for(int i = 4; i>0; i--){
+        arr[i] = arr[i-1];
     }
+    arr[0] = AC;
+    // vector<int> ans;
+    // ans.push_back(arr[4]);
+    // for(int i = 0; i<4;i++){
+    //     ans.push_back(arr[i]);
+    // }
 
 
     // std::reverse(arr.begin(), arr.end());
