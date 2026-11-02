@@ -7,7 +7,7 @@ int main(){
     char s2[100];
 
     printf("Enter string 1: ");
-    scanf("%s", s1); // Simple input, no & needed for strings
+    scanf("%s", s1);
 
     printf("Enter string 2: ");
     scanf("%s", s2);
